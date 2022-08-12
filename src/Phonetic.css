@@ -3,8 +3,8 @@
 }
 
 .Phonetic a {
-  border: 2px solid rgb(219, 81, 250);
-  background: whitesmoke;
+  border: 2px solid rgb(229, 143, 249);
+  background: rgb(229, 143, 249);
   color: black;
   text-decoration: none;
   padding: 8px 15px;
@@ -15,7 +15,7 @@
 }
 
 .Phonetic a:hover {
-  background-color: rgb(219, 81, 250);
+  background-color: rgb(229, 143, 249);
   color: whitesmoke;
 }
 

@@ -2,3 +2,10 @@
   max-width: 900px;
   margin: 0 auto;
 }
+
+.App .Footer {
+  font-size: 14px;
+  opacity: 0.7;
+  text-align: center;
+  margin-bottom: 20px;
+}

@@ -20,8 +20,8 @@ export default function Dictionary(props) {
 
   function search() {
     //documentation: https://dictionaryapi.dev/
-    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
-    axios.get(apiUrl).then(handleDictionaryResponse);
+    let dictionaryApiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
+    axios.get(dictionaryApiUrl).then(handleDictionaryResponse);
 
     let PexelsApiKey =
       "563492ad6f9170000100000140127bc498d34be884ce91403043313f";
@@ -48,7 +48,10 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <section>
-          <h1>What word do you want to look up?</h1>
+          <h1>Dictionary 📖</h1>
+        </section>
+        <section>
+          <h2>What word would you like you to look up?</h2>
           <form onSubmit={handleSubmit}>
             <input
               type="search"

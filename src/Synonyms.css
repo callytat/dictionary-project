@@ -1,5 +1,5 @@
 .Synonyms {
-  margin: 15px 0 0;
+  margin: 15px 15px;
   padding: 0;
 }
 
@@ -7,5 +7,5 @@
   display: inline-block;
   padding-right: 15px;
   line-height: 1;
-  opacity: 0.6;
+  color: rgb(210, 20, 210);
 }
